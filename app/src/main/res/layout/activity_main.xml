@@ -7,18 +7,15 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ListView
-        android:id="@+id/lv"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" >
-    </ListView>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Hello World!"/>
 
     <Button
-        android:id="@+id/btnAdd"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnNotif"
         android:layout_height="wrap_content"
-        android:layout_weight="0"
-        android:text="Add Task" />
+        android:layout_width="wrap_content"
+        android:text="Notify" />
 
 </LinearLayout>
